@@ -1,0 +1,8 @@
+# encoding:utf-8
+# 创建一个grpc客户端
+import grpc
+from proto import ${pbName}, ${pbGrpcName}
+# 自动将pb文件生成python描述文件
+import os
+import subprocess
+

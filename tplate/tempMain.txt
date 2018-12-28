@@ -1,0 +1,3 @@
+if __name__ == "__main__":
+    # create_pb_py()
+    newGrpcClient = GrpcClient('server_ip:port')

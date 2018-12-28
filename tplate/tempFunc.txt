@@ -1,0 +1,10 @@
+    def ${funcName}(self, **kwargs):
+        """
+        批量根据owner uid获取房间信息
+        :param para:${para_dict}
+        :return:
+        """
+        metadata = (('aid', str(123)), ('aid', str(123)))
+        req = ${pbName}.${funcName}Req(**kwargs)
+        response = self.client.${funcName}(req, metadata=metadata)
+        print '{}'.format(response)

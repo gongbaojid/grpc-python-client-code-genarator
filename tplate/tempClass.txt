@@ -1,0 +1,5 @@
+class GrpcClient(object):
+    def __init__(self, host):
+        self.conn = grpc.insecure_channel(host)
+        self.client = ${pbGrpcName}.${serverName}(channel=self.conn)
+
